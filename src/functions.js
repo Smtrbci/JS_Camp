@@ -1,6 +1,4 @@
-function addToCart(quantity,productName="Elma") {
-    console.log("Sepete eklendi : ürün : " 
-    + productName + " adet : " + quantity)
+function addToCart(quantity,productName="Elma") {console.log("Sepete eklendi : ürün : " + productName + " adet : " + quantity)
 }
 
 //addToCart().
@@ -41,7 +39,7 @@ addToCart3(product1)
 let product2 = {productName:"Elma", unitPrice:10, quantity:5}
 let product3 = {productName:"Elma", unitPrice:10, quantity:5}
 product2 = product3
-product2.productName = "KARPUZ"
+product2.productName = "Karpuz"
 console.log(product3.productName)
 
 let sayi1 = 10
