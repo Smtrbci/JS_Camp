@@ -3,7 +3,7 @@ function addToCart(quantity,productName="Elma") {
     + productName + " adet : " + quantity)
 }
 
-//addToCart()
+//addToCart().
 addToCart(10)
 //addToCart(15)
 
