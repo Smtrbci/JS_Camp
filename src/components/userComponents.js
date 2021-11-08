@@ -9,6 +9,7 @@ let userService = new UserService(logger1)
 
 let user1 = new User(1, "Samet", "Arabacı", "Istanbul")
 let user2 = new User(2, "Git", "Hub", "Ankara")
+
 userService.add(user1)
 userService.add(user2)
 
